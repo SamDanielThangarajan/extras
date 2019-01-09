@@ -1,0 +1,25 @@
+steps to compilation
+  Lexical parser -> Preprocessor -> write assembly -> write assembled object code -> linker
+
+- compiler
+   - -E to stop after preprocessor
+      -> Note contant replacement
+      -> File content sustitution
+      -> line by line processing
+      -> Format of comments changed
+   - -S to stop after writing assembly code
+   - -c to stop after writing object code
+
+- linker
+   - What are libraries?
+      -> Two parts : header and lib
+   - static library
+   - dynamic library
+
+Activity
+- crack a number lock
+   - robot
+   - elf read
+   - LD_PRELOAD
+
+- name mangling (off track but still useful)
