@@ -4,3 +4,13 @@ compilation_basics
   - crack a number lock
   - name mangling
 
+Memory
+  - stack and heap
+  - leak
+  - shared_ptr<type>
+
+lambda
+
+SFINAE
+
+Network programming (sockets/mux-demux)

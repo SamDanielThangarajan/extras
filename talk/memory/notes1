@@ -1,0 +1,16 @@
+C++ memory specifications:
+   - static :
+       Scope begin: program starts
+       Scope end: program finishes
+   - automatic :
+       Scope begin: {
+       Scope end: }
+   - dynamic :
+       Scope begin: new/malloc
+       Scope end: delete/free
+   - thread_local :
+       Similar to static but only limited to a thread
+       
+- Which is effecient when copying (automatic/dynamic)?
+- shared_ptr?
+
