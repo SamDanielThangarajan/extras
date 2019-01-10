@@ -1,6 +1,6 @@
 #include <iostream>
 
-#define KEY 717
+#define KEY 112
 
 
 bool is_valid(int32_t input) {

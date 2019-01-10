@@ -1,16 +1,14 @@
-compilation_basics
-  - compiler
-  - linker
-  - crack a number lock
-  - name mangling
-
-Memory
-  - stack and heap
-  - leak
-  - shared_ptr<type>
-
-lambda
-
-SFINAE
-
-Network programming (sockets/mux-demux)
+#Technical
+ compilation_basics
+   - compiler
+   - linker
+   - crack a number lock
+   - name mangling
+ 
+ Memory
+   - stack and heap
+   - leak
+   - shared_ptr<type>
+ 
+#Non-Technical
+How to code?

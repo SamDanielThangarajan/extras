@@ -1,0 +1,11 @@
+#!/usr/bin/expect -f
+
+set val [lindex $argv 0 ]
+
+spawn ./a.out
+expect {
+   "Enter the key : " {send -- "$val\r"}
+   eof
+}
+catch wait result
+exit [lindex $result 3]
